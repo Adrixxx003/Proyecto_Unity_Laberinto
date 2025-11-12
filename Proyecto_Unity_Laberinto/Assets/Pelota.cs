@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Pelota : MonoBehaviour
 {
-    public float fuerzaMovimiento = 10f;
+    public float fuerzaMovimiento = 5f;
     private Rigidbody rb;
 
     void Start()
