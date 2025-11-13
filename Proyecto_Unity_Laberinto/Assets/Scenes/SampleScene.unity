@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 21446600}
   - component: {fileID: 21446599}
   m_Layer: 0
-  m_Name: e (2)
+  m_Name: Rampa (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -223,12 +223,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 21446598}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.34737056, y: 0.6178487, z: -0.35064214, w: 0.61208403}
-  m_LocalPosition: {x: 3.832, y: 43.42, z: 36.57}
-  m_LocalScale: {x: 1.6913242, y: 8.322025, z: 1}
+  m_LocalRotation: {x: -0, y: 0.71041316, z: -0, w: 0.7037849}
+  m_LocalPosition: {x: -0.74124646, y: 0.036202442, z: 1.3655603}
+  m_LocalScale: {x: 1.6912218, y: 1.0756, z: 0.5912739}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1472000041}
   m_LocalEulerAnglesHint: {x: 0.461, y: 90.275, z: -59.151}
 --- !u!1 &181172784
 GameObject:
@@ -687,7 +687,7 @@ GameObject:
   - component: {fileID: 319253544}
   - component: {fileID: 319253543}
   m_Layer: 0
-  m_Name: e (3)
+  m_Name: Rampa (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -778,12 +778,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319253542}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.34737056, y: 0.6178487, z: -0.35064214, w: 0.61208403}
-  m_LocalPosition: {x: 6.31, y: 43.43, z: 36.51}
-  m_LocalScale: {x: 1.6913242, y: 8.477541, z: 1}
+  m_LocalRotation: {x: -0, y: 0.71041316, z: -0, w: 0.7037849}
+  m_LocalPosition: {x: 0.72387767, y: 0.043523226, z: 1.3433807}
+  m_LocalScale: {x: 1.6912218, y: 1.0957, z: 0.5912739}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1472000041}
   m_LocalEulerAnglesHint: {x: 0.461, y: 90.275, z: -59.151}
 --- !u!1 &330585543
 GameObject:
@@ -3857,7 +3857,7 @@ GameObject:
   - component: {fileID: 1472000039}
   - component: {fileID: 1472000038}
   m_Layer: 0
-  m_Name: e
+  m_Name: Rampa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3952,7 +3952,9 @@ Transform:
   m_LocalPosition: {x: 5.085688, y: 42.104, z: 36.11026}
   m_LocalScale: {x: 1.6913242, y: 7.7371, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 21446602}
+  - {fileID: 319253546}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -59.152, y: 0, z: 0}
 --- !u!1 &1546030649
@@ -5310,5 +5312,3 @@ SceneRoots:
   - {fileID: 2034700124}
   - {fileID: 620288403}
   - {fileID: 1472000041}
-  - {fileID: 21446602}
-  - {fileID: 319253546}
