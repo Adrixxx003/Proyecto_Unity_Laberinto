@@ -898,7 +898,13 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Build: 0
+    Game Performance: 0
+    Legacy Analytics: 0
+    Purchasing: 0
+    UDP: 0
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -920,11 +926,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: e8581583-4234-489a-bafd-517636df8987
+  cloudProjectId: 12114354-9862-4a50-a566-9cfa3ca9a1cf
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Proyecto_Unity_Laberinto 2025-11-12_19-11-01
-  organizationId: adrixxmks
+  projectName: Proyecto_Unity_Laberinto
+  organizationId: unity_27105fa67ae4c21afa51
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
