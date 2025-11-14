@@ -66,6 +66,7 @@
     <Compile Include="Assets\Camara.cs" />
     <Compile Include="Assets\Pelota.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\BTM_Assets\BTM_Items_Gems\Scripts\SimpleGemsAnim.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
